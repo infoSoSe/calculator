@@ -8,8 +8,12 @@ a calculator including basic operations
 
 <snippet>
   <content><![CDATA[
-# {1:Calculator}
-TODO: Write a project description
+# Calculator
+
+Das Programm GUI ist ähnlich einem Taschenrechner.
+Es gibt ein Eingabefeld und Buttons mit verschieden Grundrechenarten (Addition, Subtraktion, Multiplikation, Division, Modulo und Potenz).Das Ergebnis wird im Eingabefeld angezeigt und die Operationen werden nach der Reihenfolge
+ihrer Eingabe ausgeführt (Regeln wie „Punkt vor Strichrechnung“ werden also hier nicht beachtet).
+
 ## Installation
 TODO: Describe the installation process
 ## Usage
