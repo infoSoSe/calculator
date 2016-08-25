@@ -8,7 +8,7 @@ Es gibt ein Eingabefeld und Buttons mit verschieden Grundrechenarten (Addition, 
 Das Ergebnis wird im Eingabefeld angezeigt und die Operationen werden nach der Reihenfolge
 ihrer Eingabe ausgeführt (Regeln wie „Punkt vor Strichrechnung“ werden also hier nicht beachtet).
 
-## Examples
+## Example
 
 ![Example](giphy.gif)
 
