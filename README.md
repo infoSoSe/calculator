@@ -3,7 +3,7 @@
 ![Example](giphy.gif)
 
 <snippet>
-  <content><!
+  <content>
 # Calculator
 
 Das Programm GUI ist ähnlich einem Taschenrechner.
