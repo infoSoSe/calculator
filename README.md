@@ -8,7 +8,7 @@ a calculator including basic operations
 
 <snippet>
   <content><![CDATA[
-# ${1:Project Name}
+# {1:Calculator}
 TODO: Write a project description
 ## Installation
 TODO: Describe the installation process
