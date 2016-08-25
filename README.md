@@ -1,7 +1,3 @@
-# Calculator
-a calculator including basic operations
-
-
 ## Examples
 
 ![Example](giphy.gif)
@@ -11,7 +7,8 @@ a calculator including basic operations
 # Calculator
 
 Das Programm GUI ist ähnlich einem Taschenrechner.
-Es gibt ein Eingabefeld und Buttons mit verschieden Grundrechenarten (Addition, Subtraktion, Multiplikation, Division, Modulo und Potenz).Das Ergebnis wird im Eingabefeld angezeigt und die Operationen werden nach der Reihenfolge
+Es gibt ein Eingabefeld und Buttons mit verschieden Grundrechenarten (Addition, Subtraktion, Multiplikation, Division, Modulo und Potenz).
+Das Ergebnis wird im Eingabefeld angezeigt und die Operationen werden nach der Reihenfolge
 ihrer Eingabe ausgeführt (Regeln wie „Punkt vor Strichrechnung“ werden also hier nicht beachtet).
 
 ## Installation
