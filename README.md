@@ -43,9 +43,3 @@ In dieser Funktion werden alle Operationen ausgeführt. Die Variable "operatorPr
 In der clear-Funktion wird alles auf 0 gesetzt, damit wieder von vorne angefangen werden kann.
 
 ![](https://cloud.githubusercontent.com/assets/20473063/18053074/0050f286-6dfe-11e6-8656-0539aa37a692.png)
-
-
-
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
