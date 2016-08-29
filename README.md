@@ -3,11 +3,11 @@
   <content>
 # Matlab Taschenrechner
 
-                                                    Grundlage der Informatik II
-                                                            Sommersemester 2016
+                                              Grundlage der Informatik II
+                                                      Sommersemester 2016
 
-                                                                            Alma Kielstein  4165388
-                                                                            Julia Gancz     4175422
+                                                                       Alma Kielstein  4165388
+                                                                       Julia Gancz     4175422
 
 
 
