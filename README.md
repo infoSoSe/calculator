@@ -11,7 +11,7 @@
 
 
 
-## Beschreibung des Projektes
+                                                  ## Beschreibung des Projektes
 
 Das Programm GUI ist ähnlich einem Taschenrechner.
 Mittels einer Qt-Oberfläche gibt es ein Eingabefeld und Buttons mit verschieden Grundrechenarten (Addition, Subtraktion, Multiplikation, Division, Modulo und Potenz).
