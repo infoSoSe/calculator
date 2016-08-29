@@ -31,17 +31,17 @@ Hier wird die Übergabe der Zahlen auf verschiedene Variablen je nach Eingabenko
 Beispiel: Gerade eingegebene Ziffern werden zunächst auf der Variable "currentValue" gespeichert. Wenn in der Rechenreihenfolge-Funktion erkannt wird, dass bisher weder eine Operation, noch = gedrückt wurde, dann wird die eingegebene Ziffer auch auf der Variable "resultValue" gespeichert.
 Wenn hingegen sowohl eine Operation als auch "=" gedrückt wurde, dann wird das ganze auf der Variable "eingabeValue" gespeichert.
 
-3
+![](https://cloud.githubusercontent.com/assets/20473063/18053068/fa66bc20-6dfd-11e6-823f-366030129f13.png)
 
 "on_pushButton_gleich_clicked":
 In dieser Funktion werden alle Operationen ausgeführt. Die Variable "operatorPressed" wird zunächst abgefragt. Je nach Abfrage wird die entsprechende Rechenoperation nun mit den Variablen "resultValue" und "eingabeValue" ausgeführt. Hier wird auch ersichtlich, warum es notwendig ist mit drei Variablen zu arbeiten. Bei der Variable "currentValue" handelt es sich um eine Übergabe Variable, die die Eingabe an "eingabeValue" weitergeben kann. Das ist notwendig, damit keine Werte an den flaschen Stellen überschrieben werden. Am Ende dieser Funktion werden "currentValue" und "eingabeValue" wieder auf 0 gesetzt, damit mit neuen Eingaben weitergerechnet werden kann. Auch die operatorPressed-Funktion wird auf 0 gesetzt damit sie neu ausgelesen werden kann. Die Variable "resultValueR hingegen behält den Wert,damit weitergerechnet werden kann und "gleich_clicked" wird von false auf true gesetzt. Auf diese Weise wird kommuniziert, dass die "=" - Taste schon gedrückt worden ist (entscheidend in der Rechenreihenfolge-Funktion).
 
-4
+![](https://cloud.githubusercontent.com/assets/20473063/18053072/fd55946a-6dfd-11e6-9c95-04b987481f4b.png)
 
 "on_pushButton_clear_clicked":
 In der clear-Funktion wird alles auf 0 gesetzt, damit wieder von vorne angefangen werden kann.
 
-5
+![](https://cloud.githubusercontent.com/assets/20473063/18053074/0050f286-6dfe-11e6-8656-0539aa37a692.png)
 
 
 
