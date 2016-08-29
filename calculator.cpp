@@ -154,14 +154,13 @@ void Calculator::on_pushButton_hoch_clicked()    //potenz
 void Calculator::Rechenreihenfolge(){                   //Rechenreihenfolge
     if (!gleich_clicked && operatorPressed == 0){
         resultValue = currentValue;
-
+    }
+    else if (gleich_clicked && (operatorPressed > 0)){
+        eingabeValue = currentValue;
     }
     else if (!gleich_clicked && (operatorPressed > 0)){
         Calculator::on_pushButton_gleich_clicked();
         gleich_clicked = false;
-    }
-    else if (gleich_clicked && (operatorPressed > 0)){
-        eingabeValue = currentValue;
     }
     else if (gleich_clicked &&(operatorPressed == 0)){
         gleich_clicked = false;
