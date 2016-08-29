@@ -17,6 +17,10 @@ ihrer Eingabe ausgeführt (Regeln wie „Punkt vor Strichrechnung“ werden also
 Die Definitionen der Funktionen für Eingabe, Buttons und Rechenoperationen befinden sich in der header-Datei ("calculator.h").
 Die Initialisierungen dieser Funktionen sind in der "calculator.cpp" Datei zu finden und in der "main.cpp" Datei werden die Calculator-Funktion und das Qt-Eingabefenster aufgerufen.
 
+## User Guide
+
+Die Eingabe am Taschenrechner wird über die Tasten in der gleichen Benutzeroberfläche getätigt. Dabei folgt der Taschenrechner der Reihenfolge der Eingabe und zeigt nach jeder gewählten Operation ein Zwischenergebnis an. Es ist auch möglich nach der Betätigung der "=" - Taste mit dem bereits erhaltenen Ergebnis weiter zu rechnen. Es ist nicht möglich einzelne Ziffern zu löschen, um zu korrigieren, da die "C" - Taste die gesamte bereits eingegebene Rechnung löscht.
+
 ## Beschreibung aller Funktionen
 
 Auslesen der Ziffern ("on_pushButton_0_clicked"):
@@ -43,3 +47,4 @@ In dieser Funktion werden alle Operationen ausgeführt. Die Variable "operatorPr
 In der clear-Funktion wird alles auf 0 gesetzt, damit wieder von vorne angefangen werden kann.
 
 ![](https://cloud.githubusercontent.com/assets/20473063/18053074/0050f286-6dfe-11e6-8656-0539aa37a692.png)
+
