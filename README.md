@@ -23,6 +23,7 @@ Auslesen der Ziffern ("on_pushButton_0_clicked"):
 Sobald eine Ziffer geklickt wird und vorher die "=" - Taste schon geklickt wurde, wird die vorherige Ziffer aus dem Eingabefenster gelöscht, und die neue Ziffer wird in der Variable "currentValue" gespeichert und angezeigt.
 
 ![ble](https://cloud.githubusercontent.com/assets/20473063/18052695/1af86332-6dfc-11e6-97eb-8b1fe954e8fd.png)
+
  Falls eine Rechenart geklickt wurde, wird die Funktion "Rechenreihenfolge" aufgerufen und die Variable "operatorPressed" wird ein Nummer aufgewiesen.
 ![](https://cloud.githubusercontent.com/assets/20473063/18052783/94dcab36-6dfc-11e6-9306-7e7b6b9ad223.png)
 
