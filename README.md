@@ -3,6 +3,16 @@
   <content>
 # Matlab Taschenrechner
 
+                                                    Grundlage der Informatik II
+Sommersemester 2016
+
+Alma Kielstein  4165388
+Julia Gancz     4175422
+
+
+
+## Beschreibung des Projektes
+
 Das Programm GUI ist ähnlich einem Taschenrechner.
 Mittels einer Qt-Oberfläche gibt es ein Eingabefeld und Buttons mit verschieden Grundrechenarten (Addition, Subtraktion, Multiplikation, Division, Modulo und Potenz).
 Das Ergebnis wird im Eingabefeld angezeigt und die Operationen werden nach der Reihenfolge
